@@ -57,15 +57,17 @@ project/
 ```bash
 git clone https://github.com/yourname/pilates-rag-chatbot.git
 cd pilates-rag-chatbot
+
 2. 필요한 패키지 설치
-bash
-코드 복사
 pip install -r requirements.txt
+
 3. 환경 변수 설정
 .env 파일 생성 후 아래처럼 입력:
 
----
 OPENAI_API_KEY=your_api_key_here
+
+---
+
 🚀 실행 방법
 Streamlit 실행:
 bash
