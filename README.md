@@ -11,6 +11,7 @@ Streamlit UI와 LangChain 기반 RAG 파이프라인을 사용하며,
 
 ## 📂 프로젝트 구조
 
+```
 project/
 ├── app.py                 # Streamlit UI
 ├── rag_pilates.py         # RAG 로직 및 날짜 분석, Tools
@@ -18,9 +19,7 @@ project/
 │   └── Pilates.pdf        # 필라테스 운영 문서
 ├── conversation.json      # (자동 생성) 대화 기록 저장 파일
 └── requirements.txt       # 패키지 목록
-
-yaml
-코드 복사
+```
 
 ---
 
