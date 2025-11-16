@@ -64,8 +64,7 @@ pip install -r requirements.txt
 3. 환경 변수 설정
 .env 파일 생성 후 아래처럼 입력:
 
-ini
-코드 복사
+---
 OPENAI_API_KEY=your_api_key_here
 🚀 실행 방법
 Streamlit 실행:
@@ -74,7 +73,7 @@ bash
 streamlit run app.py
 브라우저가 자동으로 열리며
 필라테스 Q&A 챗봇을 바로 사용할 수 있습니다.
-
+---
 📄 requirements.txt
 아래 패키지들이 포함됩니다:
 
@@ -90,6 +89,7 @@ python-dotenv
 pypdf
 pytz
 tiktoken
+---
 🛠 기술 스택
 Language Model: OpenAI GPT-4o-mini
 
